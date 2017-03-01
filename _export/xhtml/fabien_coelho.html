@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ lang="en" dir="ltr">
+
+<!-- Mirrored from 2009.pgday.fr/_export/xhtml/fabien_coelho by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 13:26:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>fabien_coelho</title>
+<meta name="generator" content="DokuWiki Release 2009-02-14b" />
+<meta name="robots" content="index,follow" />
+<meta name="date" content="2009-10-27T17:44:38+0100" />
+<meta name="keywords" content="fabien_coelho" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../lib/exe/opensearch.php" title="European PGDay 2009" />
+<link rel="start" href="../../index.html" />
+<link rel="contents" href="../../fabien_coelhodecf.html?do=index" title="Index" />
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="../../feed.php" />
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="../../feed8be0.php?mode=list&amp;ns=" />
+<link rel="alternate" type="text/html" title="Plain HTML" href="fabien_coelho.html" />
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="../raw/fabien_coelho" />
+<link rel="stylesheet" media="all" type="text/css" href="../../lib/exe/css2c41.css?s=all&amp;t=pgday" />
+<link rel="stylesheet" media="screen" type="text/css" href="../../lib/exe/css2ff6.css?t=pgday" />
+<link rel="stylesheet" media="print" type="text/css" href="../../lib/exe/css3ffa.css?s=print&amp;t=pgday" />
+<script type="text/javascript" charset="utf-8" src="../../lib/exe/jsb5bc.php?edit=0&amp;write=0" ></script>
+</head>
+<body>
+<div class="dokuwiki export">
+
+
+
+<h1><a name="fabien_coelho" id="fabien_coelho">Fabien COELHO</a></h1>
+<div class="level1">
+
+<p>
+
+Fabien est enseignant chercheur à MINES ParisTech, dont il est diplômé comme ingénieur civil (1993) et docteur (1996) dans le domaine de la compilation pour machines parallèles. Ses recherches actuelles portent sur la compilation hautes performances vers des cibles variées, avec quelques petites incursions en cryptographie.
+</p>
+
+<p>
+
+Il utilise PostgreSQL pour enseigner les bases de données (conception, <acronym title="Structured Query Language">SQL</acronym>, JDBC, extensions, administration…) depuis cinq ans. La plupart de ses supports de cours, en français, sont disponibles en ligne sur le site de ParisTech.
+</p>
+
+<p>
+
+Il a également fait quelques contributions à PostgreSQL, en particulier la localisation des messages d&#039;erreur syntaxique avec un extrait de la requête, et l&#039;infrastructure d&#039;ajout d&#039;extensions “pgxs”.
+
+</p>
+
+</div>
+<!-- SECTION "Fabien COELHO" [1-803] -->
+<h2><a name="pg_comparatorcomparaison_de_tables_a_distance" id="pg_comparatorcomparaison_de_tables_a_distance">pg_comparator:  comparaison de tables à distance</a></h2>
+<div class="level2">
+
+<p>
+
+Les systèmes de bases de données stockent les données critiques de toutes les organisations. Elles sont souvent dupliquées pour être traîtées par différentes applications, et pour le plan de reprise d&#039;activité en cas de catastrophe.
+</p>
+
+<p>
+Afin de vérifier cette duplication, il est utile de comparer le contenu de tables à distance pour détecter les modifications accidentelles dûes à des problèmes matériels, systèmes, logiciels, applicatifs, réseaux ou humains… Nous présentons un algorithme basé sur des opérations disponibles sur toute base de donnée relationnelle pour comparer à distance deux tables et identifier les insertions, mises à jours et effacements de n-uplets entre elles, avec un minimum de communications.
+</p>
+
+<p>
+Cette technique calcule un arbre de sommes de contrôle qui couvre tout le contenu de la table et qui sont aggrégées par niveaux pour détecter les clefs dont les valeurs diffèrent. Cet algorithme peut être vu comme une adaptation de l&#039;algorithme de Metzner au contexte particulier des relations.
+</p>
+
+<p>
+Un prototype d&#039;outil a été développé, et une implémentation plus robuste est aussi proposée par Michael Nacos. Ces implémentations sont des logociels libres. Des expériences montrent l&#039;effectivité de l&#039;algorithme même pour des tables accessibles sur un réseau local haut débit.
+
+</p>
+<hr />
+
+<p>
+<a href="../../_detail/fabien_coelho0db7.html?id=fabien_coelho" class="media" title="fabien_coelho.jpg"><img src="../../_media/df278954bf70611c165a48cdbf2f4601.media.150x1507658.jpg_%3b?w=150" class="media" alt="" width="150" /></a>
+
+</p>
+
+</div>
+<!-- SECTION "pg_comparator:  comparaison de tables à distance" [804-] --></div>
+</body>
+
+<!-- Mirrored from 2009.pgday.fr/_export/xhtml/fabien_coelho by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 13:26:34 GMT -->
+</html>

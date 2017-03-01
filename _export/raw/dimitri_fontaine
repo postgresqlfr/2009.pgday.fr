@@ -1,0 +1,24 @@
+====== Dimitri Fontaine ======
+
+Dimitri Fontaine is a PostgreSQL DBA at Hi-Media in Paris, France, and a member of the PostgreSQL community. He contributes code and documentation to the project, either for the core product or satellite projects.
+
+He's the author of  pgloader 2, the python parallel ETL; prefix, a complete prefix matching solution (think telecom routing and costs) with custom GiST indexing; and preprepare, a solution to use prepared statement and connection poolers together, transparently.
+
+
+Dimitri est DBA PostgreSQL chez Hi-Media à Paris en France, et membre actif dans la communauté PostgreSQL. Il contribue au projet du code et de la documentation, aussi bien pour le moteur lui-même que pour les projets annexes.
+
+Il est en particulier l'auteur des projets pgloader ; prefix (recherche de prefix de routages pour des numéros de téléphones, par exemple, avec support d'index GiST) ; et preprepare, une solution de préparation de requête adaptée aux architectures avec pooling de connexions.
+
+===== Retour d'expérience : PostgreSQL et Skytools chez Hi-Media =====
+
+
+Hi-Media appuie aujourd'hui l'essentiel de ses services sur des technologies libres, et en matière de bases de données, le choix de PostgreSQL s'accompagne des Skytools. Ces outils nous permettent de faire de la réplication de données dans des cadres très différents (fédération de données pour répartition de charge, réplication croisée pour séparation des composants, maintenance d'une solution de reprise sur incidents, traitements asynchrones métiers...).
+
+===== pg_staging or how to manage your staging environments =====
+
+Any live database has backups, right? Often both dumps and file system level backups (PITR, WAL archiving etc). pg_staging is about leveraging this duty in order to manage a fine development and testing environment, where developpers can easily test their code against recent live data, updated on-demand or automatically.
+
+
+----
+
+{{:dimitri_fontaine.png?150|}}

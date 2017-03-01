@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ lang="en" dir="ltr">
+
+<!-- Mirrored from 2009.pgday.fr/david_fetter by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 13:25:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    David Fetter    [European PGDay 2009]
+  </title>
+
+  <meta name="generator" content="DokuWiki Release 2009-02-14b" />
+<meta name="robots" content="index,follow" />
+<meta name="date" content="2009-10-27T22:03:12+0100" />
+<meta name="keywords" content="david_fetter" />
+<link rel="search" type="application/opensearchdescription+xml" href="lib/exe/opensearch.php" title="European PGDay 2009" />
+<link rel="start" href="index.html" />
+<link rel="contents" href="david_fetterdecf.html?do=index" title="Index" />
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="feed.php" />
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="feed8be0.php?mode=list&amp;ns=" />
+<link rel="alternate" type="text/html" title="Plain HTML" href="_export/xhtml/david_fetter.html" />
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="_export/raw/david_fetter" />
+<link rel="stylesheet" media="all" type="text/css" href="lib/exe/css2c41.css?s=all&amp;t=pgday" />
+<link rel="stylesheet" media="screen" type="text/css" href="lib/exe/css2ff6.css?t=pgday" />
+<link rel="stylesheet" media="print" type="text/css" href="lib/exe/css3ffa.css?s=print&amp;t=pgday" />
+<script type="text/javascript" charset="utf-8" src="lib/exe/jsb5bc.php?edit=0&amp;write=0" ></script>
+
+  <link rel="shortcut icon" href="lib/tpl/pgday/images/favicon.ico" />
+
+  
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1345454-8");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</head>
+
+<body>
+<div class="dokuwiki">
+  
+
+<div class="header">
+
+  <div id="top"><div id="pgHeader">
+    <span id="pgHeaderLogoLeft">
+      <a href="index.html" title="European PGDay"><img src="lib/tpl/pgday/images/hdr_left.png" width="230" height="80" alt="PostgreSQL" /></a>
+    </span>
+    <span id="pgHeaderLogoRight">
+      <a href="index.html" title="European PGDay, 6-7 nov 2009"><img src="lib/tpl/pgday/images/hdr_right.png" width="210" height="80"  /></a>
+    </span>
+  </div></div>
+</div><!-- end of header -->
+
+  <div id="nav">
+        <div class="flp">
+<ul>
+<li class="level1"><div class="li"> <a href="start.html" class="wikilink1" title="start">Home</a>  |</div>
+</li>
+<li class="level1"><div class="li"> <a href="about.html" class="wikilink1" title="about">About PGDay</a>  |</div>
+</li>
+<li class="level1"><div class="li"> <a href="register.html" class="wikilink1" title="register">Registration</a>  |</div>
+</li>
+<li class="level1"><div class="li"> <a href="schedule.html" class="wikilink1" title="schedule">Schedule</a>  |</div>
+</li>
+<li class="level1"><div class="li"> <a href="sponsors.html" class="wikilink1" title="sponsors">Sponsors</a>  | </div>
+</li>
+<li class="level1"><div class="li"> <a href="participate.html" class="wikilink1" title="participate">Participate</a>  |</div>
+</li>
+<li class="level1"><div class="li"> <a href="contact.html" class="wikilink1" title="contact">Contact</a></div>
+</li>
+</ul>
+        </div>
+	<div class="lang">
+﻿﻿﻿<div class="plugin_translation"><ul>  <li><div class="li"><span class="curid"><a href="david_fetter.html" class="wikilink1" title="david_fetter">David Fetter</a></span></div></li>  <li><div class="li"><a href="fr_david_fetter.html" class="wikilink2" title="fr:david_fetter" rel="nofollow">david_fetter</a></div></li>  <li><div class="li"><a href="it_david_fetter.html" class="wikilink2" title="it:david_fetter" rel="nofollow">david_fetter</a></div></li></ul></div>	</div>
+        <div class="cb"></div>
+  </div>
+
+<!-- end of nav -->
+
+ 
+<div class="colmask threecol">
+	<div class="colmid">
+	<div class="colleft">
+	<div class="colone">
+	<!-- Column 1 start -->
+	  <div class="page">
+    		<!-- wikipage start -->
+    		<!-- TOC START -->
+<div class="toc">
+<div class="tocheader toctoggle" id="toc__header">Table of Contents</div>
+<div id="toc__inside">
+
+<ul class="toc">
+<li class="level1"><div class="li"><span class="li"><a href="#david_fetter" class="toc">David Fetter</a></span></div></li>
+<li class="level1"><div class="li"><span class="li"><a href="#marko_tiikkaja" class="toc">Marko Tiikkaja</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#writeable_ctesthe_next_big_thing" class="toc">Writeable CTEs: The Next Big Thing</a></span></div></li></ul>
+</li></ul>
+</div>
+</div>
+<!-- TOC END -->
+
+
+
+<h1><a name="david_fetter" id="david_fetter">David Fetter</a></h1>
+<div class="level1">
+
+<p>
+
+David Fetter writes the PostgreSQL Weekly News, contributes patches to the PostgreSQL source code, helps with the web and sysadmins team, and gives talks on PostgreSQL wherever people wish to hear them.  He is a founder of PostgreSQL Experts, Inc.
+</p>
+
+</div>
+
+<h1><a name="marko_tiikkaja" id="marko_tiikkaja">Marko Tiikkaja</a></h1>
+<div class="level1">
+
+<p>
+
+Marko Tiikkaja is studying computer science at the University of
+Helsinki.  He has been programming computers since he was six years
+old.  Marko started seriously appreciating Free Software in 2003 when
+he started using PostgreSQL 7.4.  In his free time he enjoys jogging.
+
+</p>
+
+</div>
+
+<h2><a name="writeable_ctesthe_next_big_thing" id="writeable_ctesthe_next_big_thing">Writeable CTEs: The Next Big Thing</a></h2>
+<div class="level2">
+<pre class="code">In the SQL standard, Common Table Expressions (CTEs) are a way of</pre>
+
+<p>
+creating and using views at run time, but only in read queries.  Here
+we create ways to use them in writes.  We plan to make all parts of
+CTEs writeable, starting with the insides of the CTEs as in,
+
+</p>
+<pre class="code">  WITH t AS (DELETE FROM foo RETURNING *) ...</pre>
+
+<p>
+
+We also plan to make the outside of the table expression writeable, as
+in:
+
+</p>
+<pre class="code">  WITH t AS (SELECT ....) INSERT INTO foo...
+  WITH t AS (SELECT ....) UPDATE foo...
+  WITH t AS (SELECT ....) DELETE FROM foo...</pre>
+
+<p>
+
+Further plans include making the writeable CTEs recursive.  This is
+still in the design stage.
+</p>
+<hr />
+
+<p>
+<a href="_detail/david_fetteraf35.html?id=david_fetter" class="media" title="david_fetter.jpg"><img src="_media/031bb15e0e772ad5d148a6f8eae26f94.media.150x1447658.jpg_%3b?w=150" class="media" alt="" width="150" /></a><a href="_detail/marko_tiikkajaaf35.html?id=david_fetter" class="media" title="marko_tiikkaja.jpg"><img src="_media/f732d2e59ab45c731d323de684a78caa.media.150x1507658.jpg_%3b?w=150" class="media" alt="" width="150" /></a>
+
+</p>
+
+</div>
+
+    		<!-- wikipage stop -->
+  	  </div>			
+        <!-- Column 1 end -->
+	</div>
+	<div class="coltwo">
+	<!-- Column 2 start -->
+	
+<p>
+<p><div class="noteinfo">
+<strong>Related Info</strong>
+</p>
+<hr />
+
+<p>
+
+<a href="venue.html" class="wikilink1" title="venue">Venue</a><br/>
+
+<a href="hotels.html" class="wikilink1" title="hotels">Hotels</a><br/>
+
+<a href="venue.html#maps" class="wikilink1" title="venue">Maps</a><br/>
+
+<a href="social_events.html" class="wikilink1" title="social_events">Social Events</a><br/>
+
+<a href="press.html" class="wikilink1" title="press">Press</a>
+
+</div></p>
+</p>
+
+<p>
+<p><div class="noteparticipate">
+<strong>Participate !</strong>
+</p>
+<hr />
+
+<p>
+
+<strong><a href="feedback.html" class="wikilink1" title="feedback">Give us your feedback!</a></strong><br/>
+
+<a href="participate.html#volunteers" class="wikilink1" title="participate">Volunteers</a><br/>
+
+<a href="participate.html#sponsors" class="wikilink1" title="participate">Sponsors</a><br/>
+
+<a href="participate.html#speakers" class="wikilink1" title="participate">Speakers</a><br/>
+
+<a href="participate.html#donate" class="wikilink1" title="participate">Donate</a><br/>
+
+<a href="contact.html" class="wikilink1" title="contact">Contact us</a><br/>
+
+
+</div></p>
+</p>
+
+<p>
+<p><div class="notearchive">
+<strong>Archive</strong>
+</p>
+<hr />
+
+<p>
+
+<a href="http://2008.pgday.org/" class="urlextern" title="http://2008.pgday.org"  rel="nofollow">PGDay.eu 2008</a><br/>
+
+<a href="http://2008.pgday.fr/" class="urlextern" title="http://2008.pgday.fr"  rel="nofollow">PGDay.fr 2008</a><br/>
+
+<a href="http://2007.pgday.org/" class="urlextern" title="http://2007.pgday.org"  rel="nofollow">PGDay.eu 2007</a><br/>
+
+
+</div></p>
+
+</p>
+	<!-- Column 2 end -->
+	</div>
+	<div class="colthree">
+	<!-- Column 3 start -->
+	
+
+
+
+
+<h1><a name="platinum_partner" id="platinum_partner">Platinum Partner</a></h1>
+<div class="level1">
+
+<p>
+
+<a href="http://www.enterprisedb.com/" class="urlextern" title="http://www.enterprisedb.com/"  rel="nofollow">http://www.enterprisedb.com/</a>
+</p>
+
+</div>
+<!-- SECTION "Platinum Partner" [12-115] -->
+<h1><a name="gold_partners" id="gold_partners">Gold Partners</a></h1>
+<div class="level1">
+
+<p>
+
+<a href="http://www.dalibo.com/" class="urlextern" title="http://www.dalibo.com/"  rel="nofollow">http://www.dalibo.com/</a>
+</p>
+
+<p>
+<a href="http://www.telecom-paristech.fr/" class="urlextern" title="http://www.telecom-paristech.fr/"  rel="nofollow">http://www.telecom-paristech.fr/</a>
+</p>
+
+</div>
+<!-- SECTION "Gold Partners" [116-285] -->
+<h1><a name="silver_partners" id="silver_partners">Silver Partners</a></h1>
+<div class="level1">
+
+<p>
+
+<a href="http://www.2ndquadrant.com/" class="urlextern" title="http://www.2ndquadrant.com"  rel="nofollow">http://www.2ndquadrant.com</a>
+</p>
+
+<p>
+<a href="http://www.cityvox.fr/" class="urlextern" title="http://www.cityvox.fr"  rel="nofollow">http://www.cityvox.fr</a>
+</p>
+
+<p>
+<a href="http://www.continuent.com/" class="urlextern" title="http://www.continuent.com/"  rel="nofollow">http://www.continuent.com/</a>
+</p>
+
+<p>
+<a href="http://www.openwide.fr/" class="urlextern" title="http://www.openwide.fr"  rel="nofollow">http://www.openwide.fr</a>
+</p>
+
+<p>
+<a href="http://www.redpill-linpro.com/" class="urlextern" title="http://www.redpill-linpro.com"  rel="nofollow">http://www.redpill-linpro.com</a>
+</p>
+
+<p>
+<a href="http://www.siriusit.co.uk/" class="urlextern" title="http://www.siriusit.co.uk"  rel="nofollow">http://www.siriusit.co.uk</a>
+</p>
+
+<p>
+<a href="sponsors.html" class="wikilink1" title="sponsors">All partners and sponsors</a>
+</p>
+
+</div>
+<!-- SECTION "Silver Partners" [286-751] -->
+<h1><a name="organized_by" id="organized_by">Organized by</a></h1>
+<div class="level1">
+
+<p>
+
+<a href="http://www.postgresql.eu/" class="urlextern" title="http://www.postgresql.eu"  rel="nofollow">http://www.postgresql.eu</a>
+</p>
+
+<p>
+<a href="http://www.postgresql.fr/" class="urlextern" title="http://www.postgresql.fr"  rel="nofollow">http://www.postgresql.fr</a>
+</p>
+
+</div>
+<!-- SECTION "Organized by" [752-] -->	<!-- Column 3 end -->
+	</div>
+	</div>
+	</div>
+</div>
+
+ <div class="clearer">&nbsp;</div>
+
+ 
+<div class="footer">
+
+    <div  id="bar__bottom">
+      <div class="bar-left" id="bar__bottomleft">
+        &copy; Copyright 2009 <a href="http://www.postgresql.eu/" alt="PostgreSQL Europe">PostgreSQL Europe</a>
+      </div>
+      <div  id="bar__bottomright">
+        <a href="david_fetter6b4d.html?do=edit&amp;rev="  class="action source" accesskey="v" rel="nofollow">Show pagesource</a>                <a href="david_fetterb9a0.html?do=login&amp;sectok=4cbb7e60b6d1ec5a0833a67734c89a0a"  class="action login" rel="nofollow">Login</a>      </div>
+      <div class="clearer"></div>
+    </div>
+
+</div>
+<!-- footer -->
+
+</div>
+
+<div class="no"><img src="lib/exe/indexerc8dd.gif?id=david_fetter&amp;1488374640" width="1" height="1" alt=""  /></div>
+</body>
+
+<!-- Mirrored from 2009.pgday.fr/david_fetter by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 13:25:28 GMT -->
+</html>

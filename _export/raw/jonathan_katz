@@ -1,0 +1,14 @@
+====== Jonathan S. Katz ======
+
+
+Jonathan S. Katz is the Vice President of Technology for Paperless, Inc. and is responsible for overseeing the development effort. He has used PostgreSQL as his primary database software since 2003 and has often been responsible for helping others to migrate from using other database software to the PostgreSQL platform.  Jonathan's primary focus has been building data-driven Web applications from all parts of the software-cycle, though he tends to work on architecting and implementing the data-related features.  Jonathan graduated with Tufts University with a B.S. in Computer Science and a B.A. in Mathematics.
+===== ORMs: Strengths, Weaknesses, and Building a PostgreSQL-specific ORM =====
+
+Object-relational mappers (ORMs) have become exceedingly popular tools to access relational databases, as they provide convenient interfaces for software developers to write code in their preferred programming language with little to no use of SQL.
+
+This talk will give examples of open-source ORMs, such as ActiveRecord and SQLAlchemy, and review strengths and weaknesses of ORM design and ways we can improve upon it.
+
+----
+
+
+{{:jonathan_s_katz.png?150|}}

@@ -1,0 +1,18 @@
+====== Vincent Moreau ======
+
+Vincent Moreau est architecte système / DBA chez Adeo Services, une entreprise de Groupe Adeo (ex Groupe Leroy Merlin). Il est responsable des socles bases de données (Postgres et Oracle) chez Adeo Service et travaille depuis 10 ans sur Oracle et 3 ans sur Postgres.
+
+===== Retour d'expérience migration Oracle vers Postgres =====
+
+  * Présentation de Groupe Adeo
+  * Utilisation de Postgres au sein du Groupe
+  * Enjeux de la migration (+ de 400 serveurs)
+  * Présentation du "socle" Postgres chez Groupe Adeo
+  * Méthodologie de la migration, avec focus sur Ora2Pg
+  * Problèmes rencontrés
+  * Bilan
+
+
+----
+
+{{:vincent_moreau.jpg?150|}}

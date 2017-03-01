@@ -1,0 +1,9 @@
+====== Mark Cave-Ayland ======
+
+Mark has been developing applications using PostGIS as a key component of the open source geospatial stack for over 7 years, including working on large-scale and near real-time geospatial datastores.
+
+As a senior technical architect at Sirius, Mark has provided consulting for a number of open-source geospatial projects and is also a member of the PostGIS core team.
+
+===== PostGIS 1.4 and beyond: a technical perspective =====
+
+With the long awaited release of PostGIS 1.4, there have been significant performance improvements to some of the key spatial operators. This talk covers some of the internal changes undertaken during the 1.4 development cycle to improve both performance and maintainability, ending with a preview of the new features slated for the 1.5 release.

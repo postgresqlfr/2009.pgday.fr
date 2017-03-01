@@ -1,0 +1,13 @@
+====== Gabriele Bartolini ======
+
+A long time open-source programmer, Gabriele is an active member of the international PostgreSQL community. Gabriele has a degree in Statistics and is an expert on data warehousing and data mining, having worked on web traffic analysis in Australia and Italy. Gabriele is a consultant with 2ndQuadrant.
+
+
+
+===== Data warehousing with PostgreSQL =====
+
+An overview of data warehousing with PostgreSQL, covering native enterprise-class characteristics and features, logical/physical design techniques, extensibility, some optimisation tips and current limitations.
+
+Based on over 5+ years experience with terabyte-class issues, I explain how features such as table partitioning, tablespaces, views, schemas, stored procedures, windowing functions, etc. make PostgreSQL an ideal candidate for a database management system in a data warehouse environment.
+
+Furthermore, PostgreSQL's compliance to standards as well as its capability of perfectly integrating into a business information system allow it to easily interface with the most common tools for ETL, data integration, data mining and business intelligence.

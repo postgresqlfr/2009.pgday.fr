@@ -1,0 +1,7 @@
+====== Jim Mlodgenski ======
+
+Jim is Chief Architect at EnterpriseDB.  He is one of EnterpriseDB's first employees, having joined the company in May, 2005. Over several years, Jim has been responsible for key activities such as sales engineering, professional services, strategic technology solutions delivery and customer education.
+
+===== Monitoring your PostgreSQL databases with Hyperic =====
+
+While there is no dominate monitoring solution endorsed by the PostgreSQL community, many of the largest users of PostgreSQL such as hi5 utilize Hyperic to monitor their data tier. Hyperic provides the framework for a robust monitoring and alerting solution that enterprises need. This tutorial will begin with a basic discussion on how to configure rudimentary alerts on PostgreSQL metrics and then dig deep into move advanced monitoring of additional PostgreSQL modules such as Slony and PGBouncer.

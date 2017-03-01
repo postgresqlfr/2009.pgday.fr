@@ -1,0 +1,14 @@
+====== Greg Stark ======
+
+Greg has been programming SQL databases since 1997 and PostgreSQL since 2002. He's been actively involved with PostgreSQL development since 2006 when he submitted his first contribution, concurrent index builds.
+
+Originally from Montreal, Canada, Greg now works for Google at their Dublin office.
+
+===== Explaining EXPLAIN =====
+
+One of Postgres's more powerful features is the EXPLAIN utility statement which details a step-by-step plan for your query. Explain can show you where time is being spent in your queries and why, and is critical to optimizing performance. We'll survey the supported plan nodes in Postgres and demonstrate some of the tricks of the trade used to understand query plans.
+
+----
+
+{{:greg_stark.png?150|}}
+ 

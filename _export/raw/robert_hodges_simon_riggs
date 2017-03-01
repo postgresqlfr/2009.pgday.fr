@@ -1,0 +1,14 @@
+====== Robert Hodges & Simon Riggs ======
+
+Robert Hodges is an expert on database replication and has been deeply involved with clustering and replication for PostgreSQL and other open source as well as commercial databases.  He is the architect of the Tungsten clustering project and lead implementer of the Tungsten Replicator.  He is currently working on porting Tungsten to PostgreSQL.  
+
+Simon Riggs is a leading PostgreSQL HA expert and contributor of many well-known PostgreSQL features such as point-in-time recovery as well as pg-standby.  Among other current projects Simon is currently working on PostgreSQL Hot Standby, which is scheduled for the 8.5 release.   Simon has spoken widely on PostgreSQL HA topics and has long experience of applying it in the field.
+
+===== The Future of PostgreSQL HA =====
+
+Synch Replication and Hot Standby are new features scheduled for PG 8.5.  With help from Simon Riggs I will explain how they improve PostgreSQL high availability and let users declare independence from other, unnamed databases.  I’ll then look at the deeper questions these features raise:   Are Slony, Londiste, and Bucardo doomed?  Are other hardware and software solutions obsolete?  Can PostgreSQL really deliver HA on which we can bet our lives, our fortunes, and our sacred honor?   
+
+
+----
+
+{{:simon_riggs.jpg?150|}}

@@ -1,0 +1,23 @@
+====== Oliver Kholl ======
+
+I am among other things the database specialist at GTwM. We are a small IT consultancy from the UK who work with small and large clients from both the private and public sectors. We have been using PostgreSQL as the database of choice for all of our internally developed applications for the past ten years. These applications have in many cases become core parts of clients' operating procedures and we sell consultancy around them. Some, including the subject of this talk are now open source. 
+
+===== Introducing portalBase - agile database development with PostgreSQL =====
+
+Our flagship product is www.gtportalbase.com. We started building this about five years ago to 'scratch an itch' - we wanted to be able to rapidly develop web based data entry and reporting applications to support our own business processes. We'd been using commercial services to do this but particularly having database skills ourselves, our ambitions exceeded what they were able to supply. We wanted something that could take advantage of the complete, powerful set of SQL features, not a simplified version suitable for business users. It soon became apparent that such an app would be useful to our lead client at the time and we continued development for them. It's now a mature application and the source has recently been released with an OS license (http://github.com/okohll/GT-portalBase/), as our major business is consulting rather than licensing.
+
+So unlike many apps, portalBase isn't aimed at business users per se but rather analysts who have a strong technical knowledge and understanding of db schema design issues, as well as an ability to liaise with clients and understand business needs. Hopefully that matches a large number of attendees at this conference. I aim to show how prototyping, development and handy administrative features built around PostgreSQL are useful without being invasive.
+
+The presentation will cover
+  * What can you do? Demo 1: building, editing and using databases, covering basic through to advanced SQL generation
+  * Interesting technical features
+    * abstracting the database 'enough'
+    * feature highlight - behind the scenes
+    * Case study - demo 2: apps supporting the core business activities of some of our clients
+  * What can't you do? Limitations and issues these generate
+  * Call for participation 
+
+
+----
+
+{{:oliver_kohll.png?150|}}

@@ -1,0 +1,25 @@
+====== Olivier Courtin et Vincent Picavet ======
+
+Vincent Picavet est ingénieur en mathématiques appliquées. Après un passage à l'INRIA pour du traitement d'imagerie satellitaire, il entre au domaine géomatique de Makina Corpus, chez qui il conçoit et réalise des SIG, dont PostgreSQL et PostGIS sont les pierres angulaires. Vincent est contributeur PostGIS et a donné nombre de formations à l'université et en entreprise. Il a participé au PGDay 2008 et à l'OGRS2009.
+
+Olivier Courtin a commencé à travailler avec PostGIS en 2004 dans le cadre de sa thèse de master. Il a organisé plus de 25 sessions de formation liées à PostgreSQL et PostGIS ces 5 dernières années. Olivier est un des principaux développeurs de PostGIS depuis 2008, en charge des fonctions d'import/export. Il a participé au PGDay francophone 2008 et au code sprint de Toronto
+en 2009.
+
+Olivier et Vincent ont créé la société Oslandia en 2009, spécialisée dans les Systèmes d'Information Géographiques OpenSource, et plus particulièrement les bases de données spatiales.
+===== PostGIS, un module de PostgreSQL pour les données spatiales =====
+
+Il est dit que 80% de l'information possède une composante spatiale. Pour tirer pleinement parti de cette caractéristique, les collectivités locales comme les entreprises privées mettent en place des systèmes d'information géographique. Les SIG étaient historiquement des logiciels bureautiques, mais ont évolué vers des systèmes à l'architecture distribuée, et une ouverture forte vers le web. Dans ce contexte, le SGBD PostgreSQL accompagné de la cartouche spatiale PostGIS tient une place prépondérante pour le stockage et le traitement des données.
+
+Que ce soit pour des finalités de représentation cartographique, de manipulation et traitement de données métier liées au territoire, de géodécisionnel ou de géomarketing, le couple PostgreSQL/PostGIS répond aux besoins sans rien envier aux concurrents que peuvent être Oracle Spatial, SQL Server ou MySQL.
+
+Basée sur des normes de l'ISO ou de l'OGC, PostGIS permet de traiter des objets géographiques simples (points, lignes, polygones) ou plus complexes. Les mécanismes d'indexation spatiale permettent d'atteindre des performances accrues pour les requêtes sur ces objets géographiques. De nombreux opérateurs et fonctions permettent des traitements variés sur les géométries. La création, modification, mais aussi les calculs de relation et de mesure entre les objets (intersection, proximité...). Des traitements plus complexes sont également disponibles : aggrégation de géométries, calcul d'enveloppe convexe, simplification de géométries...
+
+PostGIS fournit aussi des fonctions d'export qui facilitent l'interopérabilité des systèmes. L'export JSON favorise l'utilisation des données dans des applications web basées sur OpenLayers, l'export KML permet une visualisation immédiate dans Google Earth, le GML est destiné aux applications utilisant les standards OGC (p. ex. TinyOWS).
+
+L'entrée de PostGIS dans le processus d'incubation de l'OSGéo garantit la perennité de ce composant, et promet de nouvelles fonctionnalités pour les versions à venir 1.5 puis 2.0.
+
+
+
+----
+
+{{:olivier_courtin.png?150|}}{{:vincent_picavet.jpg?150|}}

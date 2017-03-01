@@ -1,0 +1,16 @@
+====== Jan Bjurström ======
+
+Worked with Geographical Information Systems for 23 years as system developer, consultant, teacher and database administrator. PostgreSQL this year. His company is Metria, part of Lantmateriet, The Swedish mapping, cadastre and Land registration authority.
+
+===== Spatial databases for national maps in Armenia =====
+
+For some years the Armenian national mapping, geodetic and cadastre authorities have updated production methods and map data storage techniques. Database technology has not been used for storing maps until this year. The PostgreSQL database software was proposed and accepted as the central storage environment, which shall facilitate effective use of the map data.
+
+The software was rather easy to introduce because the newly chosen mapping desktop client have the PostgreSQL as one of the supported relational database systems, and is bundled with the middleware on its distribution media which is easy to install.
+
+This presentation will tell how map data is managed and will also highlight a few questions that I would like to discuss with the experienced PostgreSQL managers. 
+
+
+----
+
+{{:jan_bjurstroem.jpg?150|}}

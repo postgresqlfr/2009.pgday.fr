@@ -1,0 +1,17 @@
+====== Heikki Linnakangas ======
+
+Heikki is a long-time PostgreSQL developer and committer. He has worked
+on many parts of PostgreSQL backend, authoring features such as
+Two-Phase Commit and the new Free Space Map implementation in PostgreSQL
+8.4.
+
+Heikki has been employed by EnterpriseDB since 2006.
+
+===== Welcome To WAL =====
+
+An introduction to PostgreSQL Write-Ahead-Log. What is the Write-Ahead-Log? How does WAL recovery work? What does its internal structure look like?
+
+
+----
+
+{{:heikki_linnakangas.png?150|}}

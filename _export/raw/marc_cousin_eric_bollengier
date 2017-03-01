@@ -1,0 +1,30 @@
+====== Marc Cousin - Eric Bollengier ======
+
+Marc Cousin est DBA PostgreSQL depuis 8 ans, DBA Oracle depuis 10 ans, architecte système Unix/Linux. Son implication dans la communauté est variée : membre PostgreSQL Fr, participation aux
+mailing list/forums PostgreSQL, articles, participation dans des projets Open Source autour de PostgreSQL (dont Bacula).
+
+Eric Bollengier est directeur de l'ingénierie chez Bacula Systems. Membre actif de la communauté Bacula depuis 2003, Eric a écrit de grandes parties du logiciel Bacula, et a aussi développé l'interface Bweb pour Bacula. Avant cela, Eric a travaillé en tant qu'administrateur système et réseau.
+
+===== Bacula et PostgreSQL, optimisation et retour d'expérience =====
+
+Résumé de la présentation :
+
+  * Bacula et les SGBD, historique
+  * Le schéma de la base
+  * Le portage sous MySQL, puis PostgreSQL
+  * L'état de l'implémentation PostgreSQL en 2006. Problématiques :
+    * Requêtes d'insertion
+    * Gestion des transactions
+    * Gestion des verrous
+  * Tentatives d'optimisation (requête préparée, procédure stockée), benchmarks, solution définitive
+  * Situation actuelle (références en production, performance)
+  * Problématiques spécifiques : insertion de masse (plusieurs millions d'enregistrement par requète dans une table contenant plus d'un milliard de tuples, interrogation pour restauration, purge, nettoyage des enregistrements superflus).
+  * Tuning spécifique
+  * Pourquoi préférer PostgreSQL pour Bacula ?
+
+
+
+----
+
+
+{{:eric_bollengier.png?150|}}{{:marc_cousin.png?150|}}

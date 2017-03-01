@@ -1,0 +1,22 @@
+====== Fabien COELHO ======
+
+Fabien est enseignant chercheur à MINES ParisTech, dont il est diplômé comme ingénieur civil (1993) et docteur (1996) dans le domaine de la compilation pour machines parallèles. Ses recherches actuelles portent sur la compilation hautes performances vers des cibles variées, avec quelques petites incursions en cryptographie.
+
+
+Il utilise PostgreSQL pour enseigner les bases de données (conception, SQL, JDBC, extensions, administration...) depuis cinq ans. La plupart de ses supports de cours, en français, sont disponibles en ligne sur le site de ParisTech.
+
+
+Il a également fait quelques contributions à PostgreSQL, en particulier la localisation des messages d'erreur syntaxique avec un extrait de la requête, et l'infrastructure d'ajout d'extensions "pgxs".
+===== pg_comparator:  comparaison de tables à distance =====
+
+Les systèmes de bases de données stockent les données critiques de toutes les organisations. Elles sont souvent dupliquées pour être traîtées par différentes applications, et pour le plan de reprise d'activité en cas de catastrophe.
+
+Afin de vérifier cette duplication, il est utile de comparer le contenu de tables à distance pour détecter les modifications accidentelles dûes à des problèmes matériels, systèmes, logiciels, applicatifs, réseaux ou humains... Nous présentons un algorithme basé sur des opérations disponibles sur toute base de donnée relationnelle pour comparer à distance deux tables et identifier les insertions, mises à jours et effacements de n-uplets entre elles, avec un minimum de communications.
+
+Cette technique calcule un arbre de sommes de contrôle qui couvre tout le contenu de la table et qui sont aggrégées par niveaux pour détecter les clefs dont les valeurs diffèrent. Cet algorithme peut être vu comme une adaptation de l'algorithme de Metzner au contexte particulier des relations.
+
+Un prototype d'outil a été développé, et une implémentation plus robuste est aussi proposée par Michael Nacos. Ces implémentations sont des logociels libres. Des expériences montrent l'effectivité de l'algorithme même pour des tables accessibles sur un réseau local haut débit.
+
+----
+
+{{:fabien_coelho.jpg?150|}}

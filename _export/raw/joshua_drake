@@ -1,0 +1,16 @@
+====== Joshua D. Drake ======
+
+  * Major Contributor to PostgreSQL.org
+  * SPI Liaison for PostgreSQL.org
+  * President PostgreSQL.us
+  * Lead Consultant Command Prompt, Inc. oldest PostgreSQL dedicated consultancy in the United States
+
+===== PITR made easy =====
+
+A 45 minute (or so) talk on implementing PITRTools, a suite of Open Source software that makes PITR implementation easy with PostgreSQL. The software includes arbitrary alerts and failover capability.
+
+
+
+----
+
+{{:joshua_drake.jpg?150|}}

@@ -1,0 +1,37 @@
+====== Gilles Rayrat, Stéphane Giron ======
+
+Stephane Giron is an engineer at Continuent, Inc., specializing in database replication and clustering.  He is responsible for engineering on the Tungsten Replicator, a platform-independent replication engine, where he handles issues like parsing database logs and performance management. Stephane has extensive PostgreSQL experience and has supported production PostgreSQL deployments for many years.
+
+Gilles Rayrat collabore avec Continuent depuis plus de 4 ans. Il s'est 
+spécialisé dans le monitoring et la connectivité de nos applications. Il 
+a une grande experience des drivers JDBC et a développé la majeure 
+partie de notre proxy PostgreSQL, solution de conversion <protocol natif 
+Postgres> - <appels JDBC>. Il utilise et assure le support des bases 
+PostgreSQL depuis de nombreuses années.
+
+===== Clustering : la nouvelle donne -- Clusters maitre/esclave pour PostgreSQL par Continuent =====
+
+L'arrivée des processeurs multi-core et la chute du prix de la RAM ont 
+changé la donne dans le  domaine du clustering de bases de données. Les 
+architectures maître/maître ou à disques partagés, devenues trop 
+complexes, sont reléguées au second plan, tandis que les solutions 
+maître/esclave prennent un nouvel elan.
+
+Nous allons vous présenter l'architecture maître/ esclave Tungsten et 
+vous expliquer comment déployer efficacement des clusters répondant a 
+divers besoins : haute disponibilité, protection de données, et 
+utilisation de ressources materielles. Nous exposerons aussi quelques 
+unes des fonctionnalités de Tungsten comme le failover et 
+l'administration automatique, les sauvegardes intégrées et le routage 
+transparent des applications vers les replicas. Après cette demo 
+fonctionnelle, nous présenterons nos futurs axes de travail, y compris 
+notre projet de lecture directe des logs Postgres.
+
+Si vous êtes sensibles aux problèmes techniques posés par le clustering 
+ou que l'un des besoins cités plus haut se manifeste dans votre 
+environnement, cette présentation est faite pour vous !
+
+
+----
+
+{{:stephane_giron.jpg?150|}}{{:gilles_rayrat.jpg?150|}}

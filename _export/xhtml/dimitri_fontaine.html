@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ lang="en" dir="ltr">
+
+<!-- Mirrored from 2009.pgday.fr/_export/xhtml/dimitri_fontaine by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 13:26:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>dimitri_fontaine</title>
+<meta name="generator" content="DokuWiki Release 2009-02-14b" />
+<meta name="robots" content="index,follow" />
+<meta name="date" content="2009-10-29T13:14:04+0100" />
+<meta name="keywords" content="dimitri_fontaine" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../lib/exe/opensearch.php" title="European PGDay 2009" />
+<link rel="start" href="../../index.html" />
+<link rel="contents" href="../../dimitri_fontainedecf.html?do=index" title="Index" />
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="../../feed.php" />
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="../../feed8be0.php?mode=list&amp;ns=" />
+<link rel="alternate" type="text/html" title="Plain HTML" href="dimitri_fontaine.html" />
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="../raw/dimitri_fontaine" />
+<link rel="stylesheet" media="all" type="text/css" href="../../lib/exe/css2c41.css?s=all&amp;t=pgday" />
+<link rel="stylesheet" media="screen" type="text/css" href="../../lib/exe/css2ff6.css?t=pgday" />
+<link rel="stylesheet" media="print" type="text/css" href="../../lib/exe/css3ffa.css?s=print&amp;t=pgday" />
+<script type="text/javascript" charset="utf-8" src="../../lib/exe/jsb5bc.php?edit=0&amp;write=0" ></script>
+</head>
+<body>
+<div class="dokuwiki export">
+<!-- TOC START -->
+<div class="toc">
+<div class="tocheader toctoggle" id="toc__header">Table of Contents</div>
+<div id="toc__inside">
+
+<ul class="toc">
+<li class="level1"><div class="li"><span class="li"><a href="#dimitri_fontaine" class="toc">Dimitri Fontaine</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#retour_d_experience_postgresql_et_skytools_chez_hi-media" class="toc">Retour d&#039;expérience : PostgreSQL et Skytools chez Hi-Media</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#pg_staging_or_how_to_manage_your_staging_environments" class="toc">pg_staging or how to manage your staging environments</a></span></div></li></ul>
+</li></ul>
+</div>
+</div>
+<!-- TOC END -->
+
+
+
+<h1><a name="dimitri_fontaine" id="dimitri_fontaine">Dimitri Fontaine</a></h1>
+<div class="level1">
+
+<p>
+
+Dimitri Fontaine is a PostgreSQL <acronym title="Database Administrator">DBA</acronym> at Hi-Media in Paris, France, and a member of the PostgreSQL community. He contributes code and documentation to the project, either for the core product or satellite projects.
+</p>
+
+<p>
+He&#039;s the author of  pgloader 2, the python parallel ETL; prefix, a complete prefix matching solution (think telecom routing and costs) with custom GiST indexing; and preprepare, a solution to use prepared statement and connection poolers together, transparently.
+</p>
+
+<p>
+
+Dimitri est <acronym title="Database Administrator">DBA</acronym> PostgreSQL chez Hi-Media à Paris en France, et membre actif dans la communauté PostgreSQL. Il contribue au projet du code et de la documentation, aussi bien pour le moteur lui-même que pour les projets annexes.
+</p>
+
+<p>
+Il est en particulier l&#039;auteur des projets pgloader ; prefix (recherche de prefix de routages pour des numéros de téléphones, par exemple, avec support d&#039;index GiST) ; et preprepare, une solution de préparation de requête adaptée aux architectures avec pooling de connexions.
+</p>
+
+</div>
+<!-- SECTION "Dimitri Fontaine" [1-1026] -->
+<h2><a name="retour_d_experience_postgresql_et_skytools_chez_hi-media" id="retour_d_experience_postgresql_et_skytools_chez_hi-media">Retour d&#039;expérience : PostgreSQL et Skytools chez Hi-Media</a></h2>
+<div class="level2">
+
+<p>
+Hi-Media appuie aujourd&#039;hui l&#039;essentiel de ses services sur des technologies libres, et en matière de bases de données, le choix de PostgreSQL s&#039;accompagne des Skytools. Ces outils nous permettent de faire de la réplication de données dans des cadres très différents (fédération de données pour répartition de charge, réplication croisée pour séparation des composants, maintenance d&#039;une solution de reprise sur incidents, traitements asynchrones métiers…).
+</p>
+
+</div>
+<!-- SECTION "Retour d'expérience : PostgreSQL et Skytools chez Hi-Media" [1027-1575] -->
+<h2><a name="pg_staging_or_how_to_manage_your_staging_environments" id="pg_staging_or_how_to_manage_your_staging_environments">pg_staging or how to manage your staging environments</a></h2>
+<div class="level2">
+
+<p>
+
+Any live database has backups, right? Often both dumps and file system level backups (PITR, WAL archiving etc). pg_staging is about leveraging this duty in order to manage a fine development and testing environment, where developpers can easily test their code against recent live data, updated on-demand or automatically.
+</p>
+<hr />
+
+<p>
+<a href="../../_detail/dimitri_fontaine2e33.html?id=dimitri_fontaine" class="media" title="dimitri_fontaine.png"><img src="../../_media/c3eee3d684439fd998f122627fa2e35b.media.150x1507658.png_%3b?w=150" class="media" alt="" width="150" /></a>
+
+</p>
+
+</div>
+<!-- SECTION "pg_staging or how to manage your staging environments" [1576-] --></div>
+</body>
+
+<!-- Mirrored from 2009.pgday.fr/_export/xhtml/dimitri_fontaine by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 13:26:33 GMT -->
+</html>

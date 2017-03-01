@@ -1,0 +1,14 @@
+====== Guillaume Lelarge ======
+
+Guillaume Lelarge participe activement à la promotion du projet PostgreSQL. Ses premières contributions concernent la traduction : documentation de PostgreSQL, applications (PostgreSQL, pgAdmin, pgpoolAdmin). Ses contributions vont maintenant en plus vers le code : pgsnap, pgAdmin, PostgreSQL. Au niveau professionnel, Guillaume Lelarge est expert PostgreSQL chez Dalibo.
+
+===== MVCC et PostgreSQL =====
+
+Le but de cette conférence est de présenter le système MVCC. Sous cet acronyme babare se cache la base de la gestion des verrous dans PostgreSQL. La découverte de son implantation permettra de comprendre certaines forces et certaines faiblesses de PostgreSQL.
+
+Une fois que les forces auront été rapidement exposées, nous passerons plus de temps sur les faiblesses. Nous verrons ainsi quelles ont été les solutions préconisées par différents développeurs au fil des versions. Nous parlerons aussi du VACUUM, de sa configuration (notamment le FSM), et des dernières avancées (refonte du FSM, visibility map).
+
+
+----
+
+{{:guillaume_lelarge.jpg?150|}}

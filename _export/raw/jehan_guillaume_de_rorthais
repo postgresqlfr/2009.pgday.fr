@@ -1,0 +1,27 @@
+====== Jehan-Guillaume de Rorthais ======
+
+J.-Guillaume de Rorthais a découvert les logiciels libres au tout début 
+de ses études supérieures. Attiré par leur qualité, il fut convaincu par 
+les différentes communautés et leur dynamisme. Utilisateur quotidien 
+depuis 2001, il s'efforça alors à prioriser les projets basés sur des 
+briques libres.
+
+Il commença a participer à phpPgAdmin en proposant des patch correctifs 
+ou pour ajouter des fonctionnalités. Au fil des mois et années, il 
+deviendra développeur officiel puis administrateur du projet
+===== phpPgAdmin : présentation, développements et futur du projet =====
+
+PhpPgAdmin est un outil d'administration de PostgreSQL accessible 
+depuis n'importe quel navigateur internet. Il est parfait pour les 
+Administrateur de bases PostgreSQL, les débutants et les hébergeurs.
+
+Bien que le projet soit peu actif pour le moment, son développement se 
+poursuit toujours et les différences entre la versions stable et la 
+version de développement sont notables. Ainsi, nous aborderons ces 
+nouveautés entre les deux versions, les problèmes et corrections 
+souhaitables à apporter au logiciel et enfin au futur de phpPgAdmin.
+
+
+----
+
+{{:jehan-guillaume_de_rorthais.jpg?150|}}

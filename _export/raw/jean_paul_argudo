@@ -1,0 +1,15 @@
+====== Jean-Paul Argudo ======
+Acteur et promoteur des Logiciels Libres depuis 2000, Jean-Paul participe activement à la promotion du projet PostgreSQL et a fondé le site http://www.PostgreSQL.fr en février 2004, posant ainsi les bases d'une communauté francophone autour du SGBD libre phare.
+
+Jean-Paul est gérant de Dalibo depuis 2005, seule société d'Expertise PostgreSQL en France, déclarée Gold Sponsor de PostgreSQL en 2009.
+
+===== Les systèmes de réplication pour PostgreSQL =====
+
+Cette présentation parcours les différents systèmes de réplication disponibles pour PostgreSQL et en propose une classification selon des critères communs.
+
+La conférence vise un public large, des sceptiques ou débutants jusqu'aux décideurs qui cherchent à choisir le système de réplication le plus adéquat à leur besoin.
+
+----
+
+
+{{:jp_argudo.png?150|}} 

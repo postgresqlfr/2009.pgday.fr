@@ -1,0 +1,37 @@
+====== David Fetter ======
+
+David Fetter writes the PostgreSQL Weekly News, contributes patches to the PostgreSQL source code, helps with the web and sysadmins team, and gives talks on PostgreSQL wherever people wish to hear them.  He is a founder of PostgreSQL Experts, Inc.
+
+====== Marko Tiikkaja ======
+
+Marko Tiikkaja is studying computer science at the University of
+Helsinki.  He has been programming computers since he was six years
+old.  Marko started seriously appreciating Free Software in 2003 when
+he started using PostgreSQL 7.4.  In his free time he enjoys jogging.
+===== Writeable CTEs: The Next Big Thing =====
+
+  In the SQL standard, Common Table Expressions (CTEs) are a way of
+creating and using views at run time, but only in read queries.  Here
+we create ways to use them in writes.  We plan to make all parts of
+CTEs writeable, starting with the insides of the CTEs as in,
+
+    WITH t AS (DELETE FROM foo RETURNING *) ...
+
+We also plan to make the outside of the table expression writeable, as
+in:
+
+    WITH t AS (SELECT ....) INSERT INTO foo...
+    WITH t AS (SELECT ....) UPDATE foo...
+    WITH t AS (SELECT ....) DELETE FROM foo...
+
+Further plans include making the writeable CTEs recursive.  This is
+still in the design stage.
+
+
+
+
+----
+
+
+
+{{:david_fetter.jpg?150|}}{{:marko_tiikkaja.jpg?150|}}

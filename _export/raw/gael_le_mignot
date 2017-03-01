@@ -1,0 +1,28 @@
+====== Gaël Le Mignot ======
+
+Diplomé de l'EPITA, Gaël le Mignot est actif dans la communauté du
+logiciel libre depuis longtemps, et travaille depui 2005 pour la
+société de services en logiciels libres Pilot Systems, utilisant des
+technologies libres comme Zope, Python et PostgreSQL. Gaël a déjà
+donné des conférences sur des sujets divers, aux RMLL, Plone
+Conference, Solutions Linux et dans des écoles d'informatique.
+
+===== Étude de cas : indexation d'une base documentaire pour le quotidien Libération =====
+
+Le back-office du quotidien Libération repose sur un moteur
+d'indexation, intensément utilisé pour la navigation et la
+recherche. Le moteur actuel, propriétaire, a atteint ses limites en
+termes de performances et de stabilité. Nous avons donc développé un
+nouveau moteur, basé sur PostgreSQL. La grande volumétrie (500 000
+articles, plus d'un million de contributions), l'utilisation massive
+de full text search et les contraintes de performances nous ont
+conduit à utiliser quelques heuristiques.
+
+Après un rappel du contexte, cette étude de cas présentera les
+problèmes rencontrés, les solutions qui y ont été apportées, les
+performances finalement obtenues, et les pistes d'évolutions futures.
+
+
+----
+
+{{:gael_le_mignot.png?150|}}

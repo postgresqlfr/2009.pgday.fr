@@ -1,0 +1,19 @@
+====== Gavin M. Roy ======
+
+Gavin has been involved with the PostgreSQL community as a user,
+contributor and evangelist for over 10 years. As the CTO of
+myYearbook.com, he has been directly involved in the various
+methodologies used to scale PostgreSQL, meeting the demands of the
+rapid & large scale growth that the site has experienced. Gavin is the
+author of Golconde, a queue based data distribution system for
+PostgreSQL.
+
+===== Scaling PostgreSQL Under Fire =====
+
+It's 1:30 am and your already popular website was just featured on national television.  Will your PostgreSQL back-end become the bottleneck that takes the site down?  Have you been in such a position?  Do you expect that you will be some day?  Scaling PostgreSQL Under Fire covers the various demands, stages of growth and the strategies to accommodate them.  From top level concepts including hardware platform choices and schema decisions to the inner-workings of PostgreSQL, we will cover the pitfalls of common implementation
+mistakes and the road to accommodating growth while maintaining a reasonable sleep schedule.
+
+
+----
+
+{{:gavin_roy.jpg?150|}}

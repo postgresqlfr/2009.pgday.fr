@@ -1,0 +1,9 @@
+====== Yke van Rande ======
+
+BSc IJke van Randen has a BSC in Software Engineering (Dutch OU). He has over 20 years of experience in RDBMS and GIS software. The focus of his work has been the integration of alphanumerical and spatial data in several projects. These projects have different workareas (soil survey networks, ecological monitoring projects). Since the introduction of spatial enabled databases they have played a vital part in those projects.
+
+===== Using spatial enabled databases in Ecological Research =====
+
+In ecological research projects spatial data is an important component. With that regard it is necessary to easily query and link different kinds of spatial data to different kinds of alphanumeric data. Spatial enabled databases provide this. They support the storage of spatial data (vendor specific) but more important they provided the operators operating on the spatial data types to query the spatial data. 
+
+In projects at Alterra PostGreSQL/PostGIS and ORACLE have proven to be solid platforms which provide a one-stop-data access for both alphanumeric and spatial data. On the basis of conducted and ongoing research projects this paper represents the experiences made with spatial enabled databases. Thereby the combined use of spatial and alphanumeric data in PostGreSQL/PostGIS and ORACLE will be represented and discussed with special focus to environmental projects.
